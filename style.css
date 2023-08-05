@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: hsl(217, 54%, 11%);
+}
+p{
+    font-size: 18px;
+}
+hr{
+    border: none;
+    border-top: 1px solid hsl(215, 17%, 46%);
+    margin: auto;
+    width: 290px;
+}
+.container{
+    width: 340px;
+    height: 570px;
+    background:hsl(216, 50%, 16%);
+    border-radius: 15px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+.img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.box{
+    padding: 0 1.5rem;
+}
+.box h2{
+    color: white;
+    margin-bottom: 1rem;
+}
+.box p{
+    color: hsl(215, 17%, 46%);
+    line-height: 24px;
+}
+.cost{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cost-l{
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+.cost-l h3{
+    font-size: 16px;
+    padding-left: .5rem;
+    color: hsl(178, 100%, 50%);
+}
+.cost-l img{
+    width: 10px;
+    height: 15px;
+}
+.cost-r{
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+.cost-r h3{
+    font-size: 16px;
+    padding-left: .5rem;
+    color: hsl(215, 17%, 46%);
+}
+.foot{
+    display: flex;
+    margin: 15px 20px;
+    align-items: center;
+}
+.foot img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.foot p{
+    font-size: 15px;
+    color: hsl(215, 17%, 46%);
+    padding-left: 1rem;
+}
+.foot a{
+    font-size: 15px;
+    color: white;
+    padding-left: 8px;
+}
